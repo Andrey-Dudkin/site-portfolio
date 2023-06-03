@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Андрей Дудкин Верстка сайтов</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav ">
+                <div class="nav_menu">
+                    <ul class="menu_list">
+                        <li class="menu_item">
+                            <a href="#about_me" class="menu_link">Обо мне</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#skills" class="menu_link">Навыки</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#portfolio" class="menu_link">Портфолио</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#footer" class="menu_link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="info">
+                <h1 class="title">Андрей Дудкин</h1>
+                <p class="short_description">Верстальщик сайтов</p>
+            </div>
+            <img src="./images/first-screen-bg.jpg" alt="" class="first_screen_img">
+        </div>
+    </header>
+    <main>
+        <section class="about_me" id="about_me">
+            <div class="container">
+                <div class="about_me_container">
+                    <h2 class="title_page">Немного обо мне</h2>
+                   <p class="description mt_17"> Андрей — молодой человек со страстью к технологиям и программированию. В возрасте 22 лет он уже проявил глубокий интерес к миру ПК и проводит большую часть своего времени, изучая их возможности и потенциал.</p> <p class="description mt_17">Как программист, Андрей хорошо владеет языками HTML, CSS и JS, что позволяет ему создавать динамичные и интерактивные веб-сайты и приложения.</p> <p class="description mt_17">Его преданность этому ремеслу проявляется в его способности писать чистый и эффективный код, а также в его стремлении изучать новые методы и технологии кодирования.</p> <p class="description mt_17">Благодаря своим знаниям и опыту Андрей способен оказать значительное влияние на мир разработки программного обеспечения и компьютерного программирования.</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="skills_container">
+                    <h2 class="title_page">Навыки</h2>
+                    <p class="description mt_17"> Я использую такие технологии как:</p>
+                    <div class="cards_skills">
+                        <div class="caed_skill">
+                            <img src="./icons/icon-html-skills.png" alt="" class="img_skill">
+                            <p class="caed_skill_text">html 5</p>
+                        </div>
+                        <div class="caed_skill">
+                            <img src="./icons/icon-css-skills.png" alt="" class="img_skill">
+                            <p class="caed_skill_text">css 3</p>
+                        </div>
+                        <div class="caed_skill">
+                            <img src="./icons/icon-js-skills.png" alt="" class="img_skill">
+                            <p class="caed_skill_text">javaScript </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="portfolio_container">
+                    <h2 class="title_page">Несколько из моих работ</h2>
+                    <div class="cadrs_portfolio">
+                        <div class="card_work">
+                            <img src="./images/portfolio-cover-work.jpg" alt="" class="cover_work">
+                            <div class="link_on_work_container">
+                                <a href="./works/interno/index.html" target="_blank" class="link_on_work">Целевая страница(Landing page) interno - Создадим интерьер вашей мечты</a>
+                            </div>
+                        </div>
+                        <div class="card_work">
+                            <img src="./images/portfolio-cover-work-2.jpg" alt="" class="cover_work">
+                            <div class="link_on_work_container">
+                                <a href="./works/spacex/index.html" target="_blank" class="link_on_work">Название нет</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="contact">
+                <h2 class="title_page">Связаться со мной</h2>
+                <p class="description mt_17 description_footer">Хотите заказать верстку сайта? Напишите мне в социальной сети ВКонтакте и мы обсудим детали.</p>
+                <a href="https://vk.me/andrey_dudkin" target="_blank" class="link_vk">Связаться во ВКонтакте</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

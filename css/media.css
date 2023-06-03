@@ -1,0 +1,105 @@
+@media(max-width: 769px){
+
+/* * header */
+
+    .header {
+        padding-bottom: 50px;
+    }
+
+/*  * section about me */
+
+    .about_me {
+        padding-bottom: 50px;
+    }
+
+/*  * section skills */
+
+    .skills{
+        padding-bottom: 50px;
+    }
+
+/*  * section portfolio */
+
+    .portfolio{
+        padding-bottom: 50px;
+    }
+
+/* * footer */
+
+    .contact{
+        padding-top: 50px;
+    }
+}
+@media(max-width: 426px){
+
+    .title_page{
+        font-size: 30px;
+        line-height: 166.666667%; /* 50/30 */
+    }
+
+ /* * header */
+ 
+    .header {
+        padding-bottom: 30px;
+    }
+    .menu_link{
+        font-size: 15px;
+        line-height: 146.666667%; /* 22/15 */
+    }
+    .title{
+        font-size: 32px;
+        line-height: 156.25%; /* 50/32 */
+    }
+    .short_description{
+        font-size: 15px;
+        line-height: 146.666667%; /* 22/15 */
+    }
+    .info{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .first_screen_img{
+        margin-top: 25px;
+    }
+    
+/*  * section about me */
+
+    .about_me {
+        padding-bottom: 30px;
+    }
+    .about_me_container{
+        padding-top: 25px;
+    }
+
+/*  * section skills */
+
+    .skills{
+        padding-bottom: 30px;
+    }
+    .skills_container{
+        padding-top: 25px;
+    }
+    .cards_skills{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 17px;
+    }
+
+/*  * section portfolio */
+
+    .portfolio{
+        padding-bottom: 30px;
+    }
+    .portfolio_container{
+        padding-top: 25px;
+    }
+    .cadrs_portfolio{
+        margin-top: 17px;
+    }
+
+    /* * footer */
+
+    .contact{
+        padding-top: 30px;
+    }
+}

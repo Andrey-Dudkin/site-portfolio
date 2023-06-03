@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap');
+
+/* * font-family: 'Oswald', sans-serif; */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.none{
+    display: none;
+}
+.title_page{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 123.529412%; /* 42/34 */
+    color: #070707;
+    text-align: center;
+}
+.description{
+    font-size: 18px;
+    line-height: 122.222222%; /* 22/18 */
+    text-align: center;
+    color: #070707;
+}
+
+/* * header */
+
+.header {
+    padding-bottom: 104px;
+}
+.nav_menu{
+    border-bottom: 1px solid #828282;
+}
+.menu_list {
+    min-height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_link {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 122.222222%; /* 22/18 */
+    color: #828282;
+    text-decoration: none;
+    transition: ease 1s;
+}
+.menu_link:hover{
+    color: #070707;
+}
+.info {
+    margin-top: 39px;
+}
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 125.531915%; /* 59/47 */
+    color: #070707;
+    padding-bottom: 15px;
+}
+.short_description {
+    font-size: 18px;
+    line-height: 122.222222%; /* 22/18 */
+    color: #070707;
+    letter-spacing: 7px;
+}
+.first_screen_img{
+    margin-top: 50px;
+}
+
+/*  * section about me */
+
+.about_me {
+    background-color: #F6F6F6;
+    padding-bottom: 107px;
+}
+.about_me_container{
+    padding-top: 80px;
+}
+.mt_17{
+    margin-top: 17px;
+}
+
+/*  * section skills */
+
+.skills{
+    padding-bottom: 110px;
+}
+.skills_container {
+    padding-top: 80px;
+}
+.cards_skills {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-top: 83px;
+}
+.caed_skill{
+    width: 166.46px;
+    height: auto;
+}
+.img_skill{
+    display: block;
+    margin: auto;
+}
+.caed_skill_text {
+    font-size: 14px;
+    line-height: 121.428571%; /* 17/14 */
+    color: #828282;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 23px;
+}
+
+/*  * section portfolio */
+
+.portfolio{
+    background-color: #F6F6F6;
+    padding-bottom: 96px;
+}
+.portfolio_container{
+    padding-top: 80px;
+}
+.cadrs_portfolio {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+}
+.card_work {
+    display: flex;
+    flex-direction: column;
+    row-gap: 44px;
+    max-width: 936.24px;
+    height: auto;
+}
+.link_on_work_container{
+   margin: 0 auto;
+}
+.link_on_work {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 157.142857%; /* 22/14 */
+    text-align: center;
+    color: #070707;
+    border-bottom: solid 1px #070707;
+}
+
+/*  * footer */
+
+.footer{
+    padding-bottom: 15px;
+}
+.contact{
+    text-align: center;
+    border-bottom: 1px solid #828282;
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+
+.link_vk{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 122.222222%; /* 22/18 */
+    color: #ffffff;
+    background-color: #070707;
+    border-radius: 30px;
+    transition: ease 1s;
+    text-decoration: none;
+    padding: 13px 29px;
+    margin-top: 29px;
+}
+.link_vk:hover{
+    color: #070707;
+    background-color: #ffffff;
+    border: 1px solid #070707;
+}

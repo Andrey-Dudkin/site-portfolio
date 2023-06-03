@@ -1,0 +1,104 @@
+@media(max-width: 1025px){
+
+/* * section falcon heavy overview */
+
+.characteristics_item{
+    flex-direction: column;
+}
+}
+@media(max-width: 769px){
+
+/* * header */
+
+    .nav {
+        display: block;
+        margin-top: 25px;
+    }
+    .menu_list,
+    .menu_list_two {
+        margin-top: 15px;
+    }
+    .header_content{
+        margin-top: 50px;
+    }
+    .header_title {
+        font-size: 44px;
+        line-height: 170.454545%; /* 75/44 */
+    }
+    .header_description{
+        margin-top: 16px;
+    }
+
+/* * section falcon heavy overview */
+
+    .flex_container{
+        flex-direction: column;
+    }
+    .about_rocket{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .characteristics_racket,.rocket_description{
+        margin-top: 50px;
+    }
+    .rocket_description_title,
+    .characteristics_racket_title{
+       margin: 0 auto;
+    }
+    .characteristics_list,.rocket_description_text{
+        margin-top: 15px;
+    }
+
+/* * footer */
+
+    .footer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+@media(max-width: 526px){
+
+/* * header */
+
+    .header_content{
+        margin-top: 30px;
+    }
+    .header_img{
+        margin-top: 16px;
+    }
+
+/* * section falcon heavy overview */
+
+    .characteristics_item {
+        font-size: 13px;
+        line-height: 179.69%;
+    }
+    .rocket_img{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+/* * footer */
+
+    .footer{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .social{
+        margin-top: 30px;
+    }
+    .social_link{
+        font-size: 13px;
+    }
+    .contact_text{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .contact_btn{
+        width: 160px;
+        height: 30px;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+}

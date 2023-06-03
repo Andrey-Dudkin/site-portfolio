@@ -1,0 +1,294 @@
+@media(max-width: 963px){
+/* ....................section.services.......................... */
+
+    .cservices_card{
+        max-width: 400px;
+        min-height: 345px;
+    }
+
+/* ...........................footer................................ */
+    .footer{
+        margin-top: 62px;
+    }
+    .footer_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_logo{
+        display: flex;
+        justify-content: center;
+    }
+    .description_company{
+        text-align: center;
+    }
+    .social_icons{
+        min-height: 53px;
+        justify-content: center;
+    }
+    .footer_col_4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .address{
+        text-align: center;
+    }
+}
+@media(max-width: 769px){
+    /* ......................header........................ */
+
+    .nav_container{
+        flex-direction: column;
+        align-items: start;
+    }
+
+/* .............section first screen..................... */
+
+    .first_screen_container{
+        max-width: 455px;
+    }
+    .first_screen_title{
+        font-size: 50px;
+    }
+    .first_screen_description{
+        font-size: 18px;
+    }
+
+/* ....................section.services........................... */
+
+    .services{
+        padding: 50px 0;
+    }
+    .services_container{
+        justify-content: center;
+    }
+    .cservices_card{
+        max-width: 400px;
+        min-height: auto;
+    }
+    .services_title{
+        font-size: 25px;
+        line-height: 156%;
+        text-align: center;
+        letter-spacing: 0.22px;
+        margin-bottom: 17px;
+    }
+    .services_description{
+        margin-bottom: 28px;
+    }
+
+/* .....................section consultation....................... */
+
+    .consultation{
+        padding-bottom: 50px;
+    }
+    .consultation_contaoner{
+        flex-wrap: wrap;
+    }
+    .consultation_text_block{
+        margin-left: 15px;
+    }
+    .consultation_title{
+        font-size: 30px;
+    }
+    .consultation_description{
+        font-size: 18px;
+    }
+    .phone_number{
+        font-size: 18px;
+    }
+    .phone img{
+        width: 63px;
+        height: 63px;
+    }
+    .consultation_link_content{
+        margin-top: 35px;
+    }
+    .consultation_img{
+        margin-top: 30px;
+    }
+/* ............................section about.......................... */
+
+    .about{
+        padding-bottom: 50px;
+    }
+    .about_title{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .about_brand{
+        margin-top: 50px;
+    }
+
+/* ......................section projects........................... */
+
+    .projects{
+        padding-bottom: 50px;
+    }
+    .projects_title{
+        font-size: 30px;
+        line-height: 133%;
+        padding-bottom: 15px;
+    }
+    .projects_description{
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .projects_container{
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+/* ....................section advantages.......................... */
+
+    .advantages{
+        margin-bottom: 50px;
+    }
+
+/* ........................section blog............................. */
+
+    .blog{
+        padding-bottom: 50px;
+    }
+    .blog_title{
+        font-size: 30px;
+        line-height: 130%;
+        margin-bottom: 11px;
+    }
+    .blog_description{
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .blog_container{
+        display: flex;
+        justify-content: center;
+        row-gap: 40px;
+        margin-top: 30px;
+    }
+
+/* .....................section contacts............................ */
+
+    .contacts{
+        padding-bottom: 50px;
+    }
+
+/* ...........................footer................................ */
+
+    .footer{
+        margin-top: 50px;
+    }
+    .footer_container{
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 581px){
+
+/* ......................header........................ */
+
+   .menu_link{
+        font-size: 14px;
+   }
+
+/* .............section first screen..................... */
+
+    .first_screen_container{
+        max-width: 370px;
+    }
+    .first_screen_title{
+        font-size: 35px;
+    }
+    .first_screen_link_content{
+        margin-top: 15px;
+    }
+
+/* ..................section.services.......................... */
+
+    .services{
+        padding: 30px 0;
+    }
+
+/* .....................section consultation....................... */
+
+    .consultation{
+        padding-bottom: 30px;
+    }
+
+/* ............................section about.......................... */
+
+    .about{
+        padding-bottom: 30px;
+    }
+    .about_brand{
+        margin-top: 30px;
+    }
+
+/* ......................section projects........................... */
+
+    .projects{
+        padding-bottom: 30px;
+    }
+
+    .projects_card_link,.project_card{
+        max-width: 570px;
+        height: auto;
+    }
+    .project_card_icon_arrow img{
+        width: 40px;
+        height: 40px;
+    }
+
+/* ....................section advantages.......................... */
+
+    .advantages{
+        margin-bottom: 30px;
+    }
+    .advantages_container{
+        flex-direction: column;
+    }
+
+/* ........................section blog............................. */
+
+    .blog{
+        padding-bottom: 30px;
+    }
+
+/* .....................section contacts............................ */
+
+    .contacts{
+        padding-bottom: 30px;
+    }
+    .contacts_bg{
+        max-width: 100%;
+        min-height: 314px;
+        background-color: #292F36;
+        border-radius: 70px;
+    }
+    .contacts_title{
+        font-size: 30px;
+        line-height: 150%;
+        padding-top: 50px;
+        margin-bottom: 9px;
+    }
+    .contacts_description{
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .contacts_link{
+        max-width: 220px;
+        min-height: 71px;
+    }
+    .contacts_link_content {
+        max-width: 220px;
+        min-height: 71px;
+    }
+
+/* ...........................footer................................ */
+
+    .footer{
+        margin-top: 30px;
+    }
+    .copywriting_text{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+}
