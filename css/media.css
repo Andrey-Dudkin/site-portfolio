@@ -18,8 +18,8 @@
     }
 }
 @media(max-width: 769px){
-    .header_main{
-        padding-top: 64px;
+    .header_inner{
+        padding-top: 160px;
     }
     .about_me,.technologies,.projects,.contacts{
         padding: 64px 0;
@@ -30,7 +30,7 @@
         display: block;
         position: absolute;
         top: 22px;
-        right: 22px;
+        right: 15px;
     }
     .burger_menu_btn{
         width: 30px;
@@ -80,7 +80,7 @@
         top: 14px;
     }
 
-    /* *header top */
+    /* *navbar */
     .navbar_container {
         flex-direction: column;
         align-items: flex-start;
@@ -96,11 +96,11 @@
     .button_toggle_theme{
         position: absolute;
         top: 16px;
-        right: 52px;
+        right: 61px;
     }
 
-    /* *header main */
-    .header_main_container{
+    /* *header inner */
+    .header_inner_container{
         justify-content: center;
     }
 
@@ -117,7 +117,7 @@
         row-gap: 24px;
     }
 
-    /* *header main */
+    /* *header inner */
     .button_header{
         flex-basis: 100%;
     }
