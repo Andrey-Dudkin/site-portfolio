@@ -34,21 +34,6 @@ if(themeMode === "dark"){
   	offThemeMode();
 };
 
-// * navbar fixed 
-function navbarFixed(){
-	const navbar = document.querySelector(".navbar");
-	const headerMain = document.querySelector(".header_main_container")
-	let scroll = window.scrollY;
-	if(scroll > 200){
-		navbar.classList.add("navbar_fixed");
-		headerMain.style.marginTop = "36px"
-	}else{
-		navbar.classList.remove("navbar_fixed");
-		headerMain.style.marginTop = "0px"
-	}
-}
-window.addEventListener("scroll",navbarFixed);
-
 // *Burger menu
 const burgerBtn = document.querySelector(".burger_menu_btn");
 const burgerIcon = document.querySelector(".burger_menu_icon");
