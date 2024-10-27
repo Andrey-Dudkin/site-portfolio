@@ -1,0 +1,16 @@
+// *footer
+.footer{
+    padding: 24px 0;
+    background-color: var(--second-background-section);
+    .copywriting{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px; 
+        text-align: center;
+        .copywriting_text{
+            span{
+                text-transform: uppercase;
+            }
+        }
+    }
+}

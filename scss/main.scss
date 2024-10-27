@@ -1,0 +1,177 @@
+@import "./blocks/./_header.scss";
+@import "./blocks/./_index.scss";
+@import "./blocks/./_footer.scss";
+@font-face{
+    font-family: "Inter";
+    src: url("../fonts/Inter-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+};
+@font-face{
+    font-family: "Inter";
+    src: url("../fonts/Inter-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+};
+@font-face{
+    font-family: "Inter";
+    src: url("../fonts/Inter-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+};
+@font-face{
+    font-family: "Inter";
+    src: url("../fonts/Inter-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+};
+
+:root{
+    //*main
+    --main-color: #4b5563;
+    --title-color: #111827;
+    --accent-color: #ffa500;
+    
+    // *buttons
+    --button-bg-color: #f4f4f4;
+    --button-hover: #e1e1e1;
+    --button-focus: var(--main-color);
+
+    // *header
+    --navbar-fixed: rgba(255 255 255 / 70%);
+    --theme-icon-color: #ffe78f;
+    --menu-icon-color: #4B5563;
+    --overlay-header: rgba(249, 250, 251,0.8);
+    --border-color: #333333;
+    
+    // *sections
+    --main-background-section: #ffffff;
+    --second-background-section: #f9fafb;
+    --background-color-title: #e6eaed;
+    --collor-title-section:var(--accent-color);
+    --color-title-section-text:var(--main-color);
+    
+    // *section project
+    --project-background-color: #ffffff;
+    --project-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.06), 0 4px 3px 0 rgba(0, 0, 0, 0.07);
+    --project-image-background-color: #f4f4f4;
+    --project-image-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.04), 0 4px 3px 0 rgba(0, 0, 0, 0.1);
+    --overlay-popup: rgba(0, 0, 0, 0.7);
+    
+    // *social mains
+    --icon-social: #000000;
+}
+
+.change_theme{
+    //*main
+    --main-color: #d1d5db;
+    --title-color: #f9fafb;
+    --accent-color: #7094ff;
+
+    // *buttons
+    --button-bg-color: #070f21;
+    --button-hover: #191e2a;
+    --button-focus: var(--main-color);
+
+    // *header
+    --navbar-fixed: rgba(63, 63, 63, 0.3);
+    --theme-icon-color: #fdfeff;
+    --menu-icon-color: #d1d5db;
+    --overlay-header: rgba(17, 24, 39,0.8);
+    --border-color: #dbdbdb;
+    
+    // *sections
+    --main-background-section: #030712;
+    --second-background-section: #111827;
+    --background-color-title: #374151;
+    --collor-title-section:var(--accent-color);
+    --color-title-section-text:var(--main-color);
+
+    // *section project
+    --project-background-color: #191e2a;
+    --project-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.06), 0 4px 3px 0 rgba(0, 0, 0, 0.07);
+    --project-image-background-color: #374151;
+    --project-image-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.04), 0 4px 3px 0 rgba(0, 0, 0, 0.1);
+    --overlay-popup: rgba(0, 0, 0, 0.7);
+    
+    // *social mains
+    --icon-social: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: var(--main-color);
+}
+.no_scroll{
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1246px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.button_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 136px;
+    height: 36px;
+    border-radius: 12px;
+    padding: 6px 16px;
+    background-color: var(--button-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--main-color);
+    transition: background-color 0.2s ease-in;
+    &:hover{
+        background-color: var(--button-hover);
+    }
+    &:focus{
+        border: solid 2px var(--button-focus);
+    }
+}
+
+.about_me,.technologies,.projects,.contacts{
+    width: 100%;
+    min-height: 50px;
+    padding: 96px 0;
+}
+.section_title_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+    .section_title{
+        background-color: var(--background-color-title);
+        border-radius: 12px;
+        padding: 10px 20px;
+        code{
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: clamp(18px, 5vw, 25px);
+            line-height: 20px; /* 142.857% */
+            word-spacing: -2px;
+            color: var(--collor-title-section-text);
+        }
+        span{
+            color: var(--collor-title-section);
+        }
+    }
+    .subtitle{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px; /* 140% */
+        text-align: center;
+    }
+}
