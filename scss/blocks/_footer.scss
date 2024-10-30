@@ -1,7 +1,7 @@
 // *footer
 .footer{
     padding: 24px 0;
-    background-color: var(--second-background-section);
+    background-color: var(--background-section);
     .copywriting{
         font-weight: 400;
         font-size: 12px;
@@ -13,4 +13,7 @@
             }
         }
     }
+}
+.none{
+    display: none;
 }

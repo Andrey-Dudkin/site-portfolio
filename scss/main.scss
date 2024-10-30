@@ -31,75 +31,82 @@
 };
 
 :root{
+    --bg-body: #111827;
+
     //*main
-    --main-color: #4b5563;
+    --main-color: #444342;
     --title-color: #111827;
-    --accent-color: #ffa500;
+    --accent-color: #f79676;
     
     // *buttons
-    --button-bg-color: #f4f4f4;
-    --button-hover: #e1e1e1;
+    --button-color: #1b1a1a;
+    --button-bg-color: #ffc1a7;
+    --button-hover: #f79676;
     --button-focus: var(--main-color);
 
     // *header
-    --navbar-fixed: rgba(255 255 255 / 70%);
-    --theme-icon-color: #ffe78f;
-    --menu-icon-color: #4B5563;
+    --navbar-fixed: rgba(250, 245, 239,0.3);
+    --theme-icon-color: #faf5ef;
+    --menu-icon-color: #444342;
     --overlay-header: rgba(249, 250, 251,0.8);
     --border-color: #333333;
     
     // *sections
-    --main-background-section: #ffffff;
-    --second-background-section: #f9fafb;
-    --background-color-title: #e6eaed;
-    --collor-title-section:var(--accent-color);
-    --color-title-section-text:var(--main-color);
-    
+    --background-section: #faf5ef;
+
     // *section project
+    --project-bg-color: rgba(250, 245, 239,0.3);
+
+
+
     --project-background-color: #ffffff;
     --project-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.06), 0 4px 3px 0 rgba(0, 0, 0, 0.07);
     --project-image-background-color: #f4f4f4;
     --project-image-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.04), 0 4px 3px 0 rgba(0, 0, 0, 0.1);
     --overlay-popup: rgba(0, 0, 0, 0.7);
     
-    // *social mains
-    --icon-social: #000000;
+    // *contacts
+    --tooltip-color: #f2e4d3;
+    --social-icon-color: #000000;
 }
 
 .change_theme{
+    --bg-body: #d1d5db;
+
     //*main
     --main-color: #d1d5db;
     --title-color: #f9fafb;
-    --accent-color: #7094ff;
+    --accent-color: #ffe455;
 
     // *buttons
-    --button-bg-color: #070f21;
-    --button-hover: #191e2a;
-    --button-focus: var(--main-color);
+    --button-bg-color: #fcf093;
+    --button-color: #1b1a1a;
+    --button-hover: #ffe455;
+    --button-focus: #d1d5db;
 
     // *header
     --navbar-fixed: rgba(63, 63, 63, 0.3);
-    --theme-icon-color: #fdfeff;
+    --theme-icon-color: #1b1a1a;
     --menu-icon-color: #d1d5db;
-    --overlay-header: rgba(17, 24, 39,0.8);
     --border-color: #dbdbdb;
     
     // *sections
-    --main-background-section: #030712;
-    --second-background-section: #111827;
-    --background-color-title: #374151;
-    --collor-title-section:var(--accent-color);
-    --color-title-section-text:var(--main-color);
+    --background-section: #1b1a1a;
 
     // *section project
+    --project-bg-color: rgba(63, 63, 63, 0.3);
+
+
+    
     --project-background-color: #191e2a;
     --project-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.06), 0 4px 3px 0 rgba(0, 0, 0, 0.07);
     --project-image-background-color: #374151;
     --project-image-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.04), 0 4px 3px 0 rgba(0, 0, 0, 0.1);
     --overlay-popup: rgba(0, 0, 0, 0.7);
     
-    // *social mains
-    --icon-social: #ffffff;
+    // *contacts
+    --tooltip-color: #302f2f;
+    --social-icon-color: #ffffff;
 }
 
 html{
@@ -110,6 +117,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: var(--main-color);
+    background-color: var(--bg-body);
 }
 .no_scroll{
     overflow: hidden;
@@ -132,7 +140,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    color: var(--main-color);
+    color: var(--button-color);
     transition: background-color 0.2s ease-in;
     &:hover{
         background-color: var(--button-hover);
@@ -145,33 +153,33 @@ body{
 .about_me,.technologies,.projects,.contacts{
     width: 100%;
     min-height: 50px;
+    background-color: var(--background-section);
+    border-bottom: solid 2px var(--border-color);
+    border-radius: 30px;
     padding: 96px 0;
 }
 .section_title_container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 24px;
+    row-gap: 28px;
     .section_title{
-        background-color: var(--background-color-title);
-        border-radius: 12px;
-        padding: 10px 20px;
         code{
             font-family: "Inter", sans-serif;
             font-weight: 600;
-            font-size: clamp(18px, 5vw, 25px);
+            font-size: clamp(25px, 5vw, 40px);
             line-height: 20px; /* 142.857% */
             word-spacing: -2px;
-            color: var(--collor-title-section-text);
+            color: var(--main-color);
         }
         span{
-            color: var(--collor-title-section);
+            color: var(--accent-color);
         }
     }
     .subtitle{
+        font-size: clamp(16px,3vw,18px);
         font-weight: 500;
-        font-size: 20px;
-        line-height: 28px; /* 140% */
+        line-height: 24px; /* 140% */
         text-align: center;
     }
 }
