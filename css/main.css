@@ -170,10 +170,6 @@
     bottom: 20px;
   }
 }
-.none {
-  display: none;
-}
-
 .about_me_photo {
   max-width: 320px;
   border-radius: 211px 10px;
@@ -472,10 +468,6 @@
 }
 .footer .copywriting .copywriting_text span {
   text-transform: uppercase;
-}
-
-.none {
-  display: none;
 }
 
 @font-face {
