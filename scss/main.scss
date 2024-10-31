@@ -56,13 +56,7 @@
 
     // *section project
     --project-bg-color: rgba(250, 245, 239,0.3);
-
-
-
-    --project-background-color: #ffffff;
-    --project-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.06), 0 4px 3px 0 rgba(0, 0, 0, 0.07);
-    --project-image-background-color: #f4f4f4;
-    --project-image-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.04), 0 4px 3px 0 rgba(0, 0, 0, 0.1);
+    --project-image-bg-color: #faf5ef;
     --overlay-popup: rgba(0, 0, 0, 0.7);
     
     // *contacts
@@ -95,13 +89,7 @@
 
     // *section project
     --project-bg-color: rgba(63, 63, 63, 0.3);
-
-
-    
-    --project-background-color: #191e2a;
-    --project-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.06), 0 4px 3px 0 rgba(0, 0, 0, 0.07);
-    --project-image-background-color: #374151;
-    --project-image-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.04), 0 4px 3px 0 rgba(0, 0, 0, 0.1);
+    --project-image-bg-color: #1b1a1a;
     --overlay-popup: rgba(0, 0, 0, 0.7);
     
     // *contacts
@@ -116,6 +104,7 @@ html{
 body{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    font-size: clamp(16px,3vw,18px);
     color: var(--main-color);
     background-color: var(--bg-body);
 }
@@ -167,7 +156,7 @@ body{
         code{
             font-family: "Inter", sans-serif;
             font-weight: 600;
-            font-size: clamp(25px, 5vw, 40px);
+            font-size: clamp(20px, 5vw, 40px);
             line-height: 20px; /* 142.857% */
             word-spacing: -2px;
             color: var(--main-color);
