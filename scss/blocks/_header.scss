@@ -103,6 +103,7 @@
 .header_inner_container{
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -125,21 +126,18 @@
             text-transform: uppercase;
         }
     }
-    .buttons_header{
-        display: flex;
-        column-gap: 24px;
-        flex-wrap: wrap;
-        row-gap: 24px;
-    }
 }
 .header_arrow_link{
     width: 20px;
     height: 20px;
     fill: var(--accent-color);
     position: absolute;
+    bottom: 0;
 }
 .header_icon_arrow{
     transform: rotate(88deg);
+    position: absolute;
+    animation: arrowDown 1s infinite ;
 }
 @keyframes arrowDown{
     0%{
