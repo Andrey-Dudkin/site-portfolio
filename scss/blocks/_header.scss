@@ -1,7 +1,7 @@
 // * header
 .header{
     width: 100%;
-    min-height: 600px;
+    min-height: 100vh;
     background-color: var(--background-section);
     border-bottom: solid 2px var(--border-color);
     border-radius: 30px;
@@ -137,9 +137,7 @@
     height: 20px;
     fill: var(--accent-color);
     position: absolute;
-    left: 50%;
     bottom: 0;
-    transform: translateX(-50%);
     animation: arrowDown 1s infinite;
 }
 .header_icon_arrow{
